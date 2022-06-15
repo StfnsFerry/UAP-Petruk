@@ -10,7 +10,7 @@ int head=-1;
 int tail=-1;
 
 bool IsEmpty(){
-  if(tail == _1){
+  if(tail == -1){
     return true;
   } else{
     return false;
