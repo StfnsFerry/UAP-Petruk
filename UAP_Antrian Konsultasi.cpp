@@ -24,3 +24,27 @@ bool IsFull(){
     return false;
   }
 }
+
+void antrian_masuk(int no){
+  if(IsEmpty()){
+    head=tail=0;
+  }else {
+    tail++;
+  }
+  nomor[tail]=no;
+}
+
+void antrian_keluar(){
+  if(IsEmpty()){
+    cout<<"Tidak ada antrian !";
+    getch();
+  }else {
+    for(int a=head;a<tail;a++){
+      nomor[a]=nomor[a+1];
+    }
+    tail--;
+    if(tail == -1){
+      head = -1;
+    }
+  }
+}
