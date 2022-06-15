@@ -101,3 +101,29 @@ int main(){
         i++;
       }
     }
+    else if(pilih == 2){
+      cout<< "=================================" << endl;
+      cout<< "No. Antrian : [" << nomor[head] << "]";
+      cout<< "\n=================================' << endl;
+      antrian_keluar();
+      cout<< "Silahkan Memasuki Ruangan Dokter !" << endl;
+    }
+    else if(pilih == 3){
+      cek_antrian();
+    }
+    else if(pilih == 4){
+      clear();
+      cout<<"Antrian dikosongkan ! ";
+    }
+    else if(pilih == 5){
+    }
+    else{
+      cout<<" Pilihan tidak tersedia ! \n" <<endl;
+    }
+    getch();
+  }while(pilih!=5);
+  
+  return 0;
+}
+    
+    
