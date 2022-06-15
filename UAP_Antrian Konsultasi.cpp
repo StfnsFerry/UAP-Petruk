@@ -66,4 +66,21 @@ void cek_antrian(){
   }
 }
 
-
+int main(){
+  int pilih;
+  int i=1;
+  int urut;
+  do{
+    system("cls");
+    cout << "\n\n___-- ANTRIAN KONSULTASI --___";
+    cout << "\n================================";
+    cout << "\n|1. Tambah antrian             |";
+    cout << "\n|2. Panggil antrian            |";
+    cout << "\n|3. Cek daftar antiran         |";
+    cout << "\n|4. Kosongkan antrian          |";
+    cout << "\n|5. Exit                       |";
+    cout << "\n================================";
+    cout << "\nPilih : ";
+    cin >> pilih;
+    cout << "\n\n";
+    
