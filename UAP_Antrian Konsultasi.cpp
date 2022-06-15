@@ -84,3 +84,20 @@ int main(){
     cin >> pilih;
     cout << "\n\n";
     
+    if(pilih ==1){
+      if(IsFull()) {
+        cout<<"Antrian sudah penuh, mohon tunggu beberapa saat lagi ";
+      }
+      else{
+        urut=1;
+        antrian_masuk(urut);
+        cout<< "---------------------------------" << endl;
+        cout<< "||          No. Antrian        ||" << endl;
+        cout<< "|              " << i << "                |" << endl;
+        cout<< "---------------------------------" << endl;
+        cout<< "|       Silahkan Mengantri      |" << endl;
+        cout<<  "||     Menunggu " << tail << " Antrian      ||" << endl;
+        cout << "---------------------------------" << endl;
+        i++;
+      }
+    }
