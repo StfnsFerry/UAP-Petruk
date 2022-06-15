@@ -16,3 +16,11 @@ bool IsEmpty(){
     return false;
   }
 }
+
+bool IsFull(){
+  if(tail == MAX-1){
+    return true;
+  } else{
+    return false;
+  }
+}
