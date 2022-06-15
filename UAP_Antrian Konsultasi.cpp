@@ -48,3 +48,22 @@ void antrian_keluar(){
     }
   }
 }
+
+void clear(){
+  head=tail=-1;
+}
+
+void cek_antrian(){
+  if(IsEmpty()){
+    cout<<"Antrian kosong !";
+  }else {
+    system("cls");
+    for(int a = head; a <= tail; a++){
+      cout<<"===============================";
+      cout<<"\n >> No. Antrian : [" << nomor[a] << "]";
+      cout<<"\n==============================="<< endl;
+    }
+  }
+}
+
+
