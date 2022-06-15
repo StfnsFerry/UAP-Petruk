@@ -104,7 +104,7 @@ int main(){
     else if(pilih == 2){
       cout<< "=================================" << endl;
       cout<< "No. Antrian : [" << nomor[head] << "]";
-      cout<< "\n=================================' << endl;
+      cout<< "\n=================================" << endl;
       antrian_keluar();
       cout<< "Silahkan Memasuki Ruangan Dokter !" << endl;
     }
