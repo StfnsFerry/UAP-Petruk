@@ -89,7 +89,7 @@ int main(){
         cout<<"Antrian sudah penuh, mohon tunggu beberapa saat lagi ";
       }
       else{
-        urut=1;
+        urut=i;
         antrian_masuk(urut);
         cout<< "---------------------------------" << endl;
         cout<< "||          No. Antrian        ||" << endl;
